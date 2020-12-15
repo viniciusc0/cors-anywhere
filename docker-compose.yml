@@ -1,0 +1,7 @@
+version: '3'
+services:
+    cors:
+        container_name: cors-anywhere
+        build: .  
+        ports:
+            - "80:8080"
